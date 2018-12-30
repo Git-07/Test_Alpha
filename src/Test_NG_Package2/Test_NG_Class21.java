@@ -24,11 +24,11 @@ public class Test_NG_Class21 {
 	@Test 
 		public void auto() throws InterruptedException{
 			System.out.println("Auto Test cases from Package2 Class21");
-			System.setProperty("webdriver.chrome.driver","D:\\software\\chromedriver_win320\\chromedriver.exe");			
+			System.setProperty("webdriver.chrome.driver","D:\\software\\chromedriver_win32\\chromedriver.exe");			
 			ChromeOptions options = new ChromeOptions();
 		    options.setExperimentalOption("useAutomationExtension", false);
 		    options.addArguments("start-maximized");
-		    WebDriver driver = new ChromeDriver(options);
+		    WebDriver driver = new ChromeDriver(options);		    
 		    driver.manage().window().maximize();
 			driver.get("https://google.com");	
 			Thread.sleep(5000);
