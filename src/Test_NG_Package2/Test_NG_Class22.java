@@ -18,8 +18,5 @@ public class Test_NG_Class22 {
 		System.out.println("Condo Test cases from Package1 Class22");
 	}
 	
-	@Test
-	public void home(){
-		System.out.println("Condo Test cases from Package1 Class22");
-	}
+
 }
